@@ -11,7 +11,7 @@ pipeline {
                  sh 'mvn sonar:sonar'
 		               // sh 'sonar-scanner -Dsonar.projectKey=myproject -Dsonar.sources=src'
                 }
-              }    
+                 
             }
         }
     }
